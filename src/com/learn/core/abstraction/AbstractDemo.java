@@ -18,7 +18,9 @@ public class AbstractDemo {
 	Abstract Classes cannot be instantiated. 
 	possibly because java would not know what to do if abstract method is called on abstract obj
 	
-
+	Abstract Methods cannot be private. because we wont be able to provide implementation otherwise.
+	Abstract classes cannot be FINAL.. because eventually someone has to extend and provide impl for abstract methods
+	
 	Summarize:
 		Any class can be marked Abstract. 
 		But if at least 1 method is Abstract, then the class MUST BE marked Abstract
